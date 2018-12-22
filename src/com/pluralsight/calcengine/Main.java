@@ -13,7 +13,7 @@ public class Main {
 //        char opCode = 'd';
 
         for(int i = 0; i < opCodes.length; i++) {
-            switch (results[i]) {
+            switch (opCodes[i]) {
                 case 'a':
                     results[i] = leftVals[i] + rightVals[i];
                 case 's':
