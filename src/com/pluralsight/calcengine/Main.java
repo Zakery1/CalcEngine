@@ -13,21 +13,22 @@ public class Main {
 //        char opCode = 'd';
 
         for(int i = 0; i < opCodes.length; i++) {
-            if (opCodes[i] == 'a')
-                results[i] = leftVals[i] + rightVals[i];
-            else if (opCodes[i] == 's')
-                results[i] = leftVals[i] - rightVals[i];
-            else if (opCodes[i] == 'd') {
-                results[i] = rightVals[i] != 0.0d ? leftVals[i] / rightVals[i] : 0.0d;
+            switch (results[i]) {
+                case 'a':
+                    results[i] = leftVals[i] + rightVals[i];
+                case 's':
+                    results[i] = leftVals[i] - rightVals[i];
+                case 'd':
+                    results[i] = rightVals[i] != 0.0d ? leftVals[i] / rightVals[i] : 0.0d;
 //                if (val2 != 0.0d)
 //                    result = val1 / val2;
 //                else
 //                    result = 0.0d;
-            } else if (opCodes[i] == 'm')
-                results[i] = leftVals[i] * rightVals[i];
-            else {
-                System.out.println("Error - invalid");
-                results[i] = 0.0d;
+                case 'm':
+                    results[i] = leftVals[i] * rightVals[i];
+                default:
+                    System.out.println("Error - invalid");
+                    results[i] = 0.0d;
             }
         }
         for(double theResult : results) {
