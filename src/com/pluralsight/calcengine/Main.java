@@ -19,16 +19,20 @@ public class Main {
                 results[i] = leftVals[i] - rightVals[i];
             else if (opCodes[i] == 'd') {
                 results[i] = rightVals[i] != 0.0d ? leftVals[i] / rightVals[i] : 0.0d;
-                if (val2 != 0.0d)
-                    result = val1 / val2;
-                else
-                    result = 0.0d;
-            else if (opCode == 'm')
-                result = val1 * val2;
+//                if (val2 != 0.0d)
+//                    result = val1 / val2;
+//                else
+//                    result = 0.0d;
+            } else if (opCodes[i] == 'm')
+                results[i] = leftVals[i] * rightVals[i];
             else {
                 System.out.println("Error - invalid");
-                result = 0.0d;
+                results[i] = 0.0d;
             }
+        }
+        for(double theResult : results) {
+            System.out.print("results = ");
+            System.out.println(theResult);
         }
     }
 }
