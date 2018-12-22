@@ -12,22 +12,23 @@ public class Main {
 //        double result;
 //        char opCode = 'd';
 
-        if(opCode == 'a')
-            result = val1 + val2;
-        else if(opCode == 's')
-            result = val1 -val2;
-        else if(opCode == 'd')
-            if(val2 != 0.0d)
-                result = val1 / val2;
-            else
+        for(int i = 0; i < opCodes.length; i++) {
+            if (opCodes[i] == 'a')
+                results[i] = leftVals[i] + rightVals[i];
+            else if (opCodes[i] == 's')
+                results[i] = leftVals[i] - rightVals[i];
+            else if (opCodes[i] == 'd') {
+                results[i] = rightVals[i] != 0.0d ? leftVals[i] / rightVals[i] : 0.0d;
+                if (val2 != 0.0d)
+                    result = val1 / val2;
+                else
+                    result = 0.0d;
+            else if (opCode == 'm')
+                result = val1 * val2;
+            else {
+                System.out.println("Error - invalid");
                 result = 0.0d;
-        else if(opCode == 'm')
-            result = val1 * val2;
-        else {
-            System.out.println("Error - invalid");
-            result = 0.0d;
+            }
         }
-
-
     }
 }
