@@ -33,6 +33,7 @@ public class Main {
                 default:
                     System.out.println("Error - invalid");
                     results[i] = 0.0d;
+                    break;
             }
         }
         for(double theResult : results) {
