@@ -6,7 +6,7 @@ public class MathEquation {
     public char opCode;
     public double result;
 
-    public void exectute () {
+    public void execute () {
         switch (opCode) {
             case 'a':
                 result = leftVal + rightVal;
