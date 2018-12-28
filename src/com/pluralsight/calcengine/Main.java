@@ -19,5 +19,9 @@ public class Main {
             System.out.print("results = ");
             System.out.println(equation.getResults());
         }
+
+        System.out.println();
+        System.out.println("Using Overloads");
+        System.out.println();
     }
 }
