@@ -1,6 +1,11 @@
 package com.pluralsight.calcengine;
 
 public class CalculateHelper {
+    public static final char ADD_SYMBOL = '+';
+    public static final char SUBTRACT_SYMBOL = '-';
+    public static final char MULTIPLY_SYMBOL = '*';
+    public static final char DIVIDE_SYMBOL = '/';
+
     MathCommand command;
     double leftValue;
     double rightValue;
@@ -45,5 +50,37 @@ public class CalculateHelper {
             command = MathCommand.Multiply;
         else if (commandString.equalsIgnoreCase(MathCommand.Divide.toString()))
             command = MathCommand.Divide;
+    }
+
+
+    @Override
+    public String toString() {
+        char symbol = ' ';
+        switch(command) {
+            case Add:
+                symbol = ADD_SYMBOL;
+                break;
+            case Subtract:
+                symbol = SUBTRACT_SYMBOL;
+                break;
+            case Multiply:
+                symbol = MULTIPLY_SYMBOL;
+                break;
+            case Divide:
+                symbol = DIVIDE_SYMBOL;
+                break;
+        }
+
+        StringBuilder sb = new StringBuilder();
+        sb.append(leftValue);
+        sb.append(' ');
+        sb.append(symbol);
+        sb.append(' ');
+        sb.append(rightValue);
+        sb.append(" = ");
+        sb.append(result);
+
+        return sb.toString();
+
     }
 }

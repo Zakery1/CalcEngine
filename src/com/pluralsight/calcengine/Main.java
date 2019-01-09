@@ -18,6 +18,8 @@ public class Main {
             System.out.println(helper);
         }
 
+        System.out.println();
+
 
         MathEquation[] equations = new MathEquation[4];
         equations[0] = new MathEquation('d', 100.0d, 50.0d);
