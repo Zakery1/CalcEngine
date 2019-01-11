@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c91d4022-5588-481a-b7f0-e501774b35ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pluralsight/calcengine/MathProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pluralsight/calcengine/DynamicHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pluralsight/calcengine/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pluralsight/calcengine/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pluralsight/myapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pluralsight/myapp/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/CalculateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="12" />
+            <state relative-caret-position="328">
+              <caret line="84" selection-start-line="84" selection-end-line="93" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -60,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/Adder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#152#153#0" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
@@ -77,14 +75,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/DynamicHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/com/pluralsight/myapp/Main.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/MathProcessing.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/Adder.java" />
+        <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/DynamicHelper.java" />
       </list>
     </option>
   </component>
@@ -170,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547223183417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547223929408" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -223,12 +235,12 @@
       <workItem from="1546879671150" duration="2560000" />
       <workItem from="1546971239968" duration="3292000" />
       <workItem from="1547053513459" duration="3779000" />
-      <workItem from="1547151737788" duration="2588000" />
+      <workItem from="1547151737788" duration="3252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12219000" />
+    <option name="totallyTimeSpent" value="12883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-156" width="1920" height="1080" extended-state="0" />
@@ -336,13 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/CalculateHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/MathProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -352,8 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/Adder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#152#153#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
@@ -361,6 +366,24 @@
             <element signature="e#423#424#0" expanded="true" />
             <element signature="e#468#469#0" expanded="true" />
             <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/CalculateHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="84" selection-start-line="84" selection-end-line="93" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/DynamicHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
           </folding>
         </state>
       </provider>
