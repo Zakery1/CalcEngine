@@ -13,7 +13,17 @@ public class Main {
 
     public static void main(String[] args) {
 
+        String[] statements = {
 
+        };
+
+        for(String statement: statements) {
+
+        }
+
+    }
+
+    static void useCalculateHelper() {
         String[] statements = {
                 "add 1.0",
                 "add xx 25.0",
@@ -34,8 +44,7 @@ public class Main {
                 if (e.getCause() != null)
                     System.out.println(" Original exception: " + e.getCause().getMessage());
             }
-
-        }
+    }
 
         System.out.println();
 
