@@ -10,8 +10,7 @@ public class DynamicHelper {
     public String process(String statement) {
 
 
-
-        String[] parts = statement.split(MathProcessing.SEPERATOR);
+        String[] parts = statement.split(MathProcessing.SEPARATOR);
         String keyword = parts[0];
 
         MathProcessing theHandler = null;
@@ -28,7 +27,7 @@ public class DynamicHelper {
 
         double result = theHandler.doCalculation(leftVal, rightVal);
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(20);
         sb.append(leftVal);
         sb.append(' ');
         sb.append(theHandler.getSymbol());

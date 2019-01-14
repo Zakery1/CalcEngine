@@ -1,7 +1,7 @@
 package com.pluralsight.calcengine;
 
 public interface MathProcessing {
-    String SEPERATOR = " ";
+    String SEPARATOR = " ";
     String getKeyword();
     char getSymbol();
     double doCalculation(double leftVal, double rightVal);

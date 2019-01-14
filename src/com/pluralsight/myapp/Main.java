@@ -9,6 +9,7 @@ import com.pluralsight.calcengine.InvalidStatementException;
 import com.pluralsight.calcengine.MathEquation;
 import com.pluralsight.calcengine.MathProcessing;
 import com.pluralsight.calcengine.Multiplier;
+import com.pluralsight.calcengine.PowerOf;
 import com.pluralsight.calcengine.Subtracter;
 
 public class Main {
@@ -16,11 +17,13 @@ public class Main {
     public static void main(String[] args) {
 
         String[] statements = {
-                "add 25.0 92.0"
+                "add 25.0 92.0",
+                "power 5.0 2.0"
         };
 
         DynamicHelper helper = new DynamicHelper(new MathProcessing[] {
-                new Adder()
+                new Adder(),
+                new PowerOf()
         });
 
         for(String statement: statements) {
